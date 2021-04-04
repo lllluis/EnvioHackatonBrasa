@@ -21,9 +21,7 @@ public class playerControler : MonoBehaviour
     public bool congelado;
     public float tempoCongelado;
 
-     
-
-
+    
     // Start is called before the first frame update
     void Start()
     {

@@ -1,0 +1,230 @@
+fileFormatVersion: 2
+guid: eb0cc958f99b0324cbe983265ec5e559
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -203655887218126122
+    second: mixamo.com
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pearl_Body_Diffuse
+    second: {fileID: 2800000, guid: 2c9af823bbaf1714385ee1f2640699a1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pearl_Body_Gloss
+    second: {fileID: 2800000, guid: 64858e07afd00134dadba9831d06adaa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pearl_Body_Normal
+    second: {fileID: 2800000, guid: 6925cc666557d58438e02ee26b24fca7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pearl_Body_Opacity
+    second: {fileID: 2800000, guid: 0c852bc27ff12354cbb43937cc3ebc7d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pearl_Body_Specular
+    second: {fileID: 2800000, guid: e687b88733f697d49aeb71929c2fe78d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pearl_Bottom_Diffuse
+    second: {fileID: 2800000, guid: de8d80f3eec17a946b19774f48c0a7fc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pearl_Bottom_Gloss
+    second: {fileID: 2800000, guid: 2526f6cc21d1a854287596111b625f92, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pearl_Bottom_Normal
+    second: {fileID: 2800000, guid: 9cf4484e33d75714eb16ae0acc84c35b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pearl_Bottom_Opacity
+    second: {fileID: 2800000, guid: c3626919cc3dae6479fe7c65a61b4af2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pearl_Bottom_Specular
+    second: {fileID: 2800000, guid: 3b613293c7389bc44a1d038bac3f1e4d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pearl_Hair_Diffuse
+    second: {fileID: 2800000, guid: d540e7c6a58864d42be5dbc4b0733fa6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pearl_Hair_Gloss
+    second: {fileID: 2800000, guid: e32c876ca1535384aae753577ad7c172, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pearl_Hair_Normal
+    second: {fileID: 2800000, guid: c29c7d360e54daa4db1f2ef04dbe9816, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pearl_Hair_Opacity
+    second: {fileID: 2800000, guid: 26f00b8350762924ea0b90e30501552a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pearl_Hair_Specular
+    second: {fileID: 2800000, guid: f5ea681586baf814a814cb118267bd5b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pearl_Shoes_Diffuse
+    second: {fileID: 2800000, guid: 2eea70083b0686c48a67f35dc62f4257, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pearl_Shoes_Gloss
+    second: {fileID: 2800000, guid: 75eac75d03988cb4f9ba25b45dd96305, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pearl_Shoes_Normal
+    second: {fileID: 2800000, guid: df2c2c34d80417a48993d17e93d5277d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pearl_Shoes_Opacity
+    second: {fileID: 2800000, guid: 756adc4a7f7cad849bf2518ac783ae15, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pearl_Shoes_Specular
+    second: {fileID: 2800000, guid: 1df98d215d5e20f428bea5a277a380d5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pearl_Top_Diffuse
+    second: {fileID: 2800000, guid: 9186ddcafc638fa4e99443055fb8d2a6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pearl_Top_Gloss
+    second: {fileID: 2800000, guid: 3d1093509fd3539418949ca32b08fa52, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pearl_Top_Normal
+    second: {fileID: 2800000, guid: e1114c20944ef6a4d8b975dd53d4c3d1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pearl_Top_Opacity
+    second: {fileID: 2800000, guid: 0ba26a3fc03bf9a4d86d20ca0557bd7c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pearl_Top_Specular
+    second: {fileID: 2800000, guid: c136767292e21b347be81936370820d2, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
