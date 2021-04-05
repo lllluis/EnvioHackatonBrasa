@@ -16,10 +16,6 @@ public class playerControler : MonoBehaviour
     private Vector3 moveDirection;
 
 
-    bool atacando;
-    public bool checkBandeira;
-    public bool congelado;
-    public float tempoCongelado;
 
     
     // Start is called before the first frame update
@@ -30,39 +26,14 @@ public class playerControler : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-
-if(this.gameObject.transform.position.z>=25f){
-    atacando = true;
-    //Debug.Log("player esta atacando");
-}
-else {
-    atacando = false;
-   // Debug.Log("player esta defendendo");
-}
-
-if(congelado){
-    tempoCongelado -= Time.deltaTime;
-    if(tempoCongelado<=0.1f){
-        congelado = false;
-        tempoCongelado = 5f;
-    }}
-
-    else{
-            Move();
-
+    void Update(){
+        Move();
     }
-    }
+
 
     private void FixedUpdate()
     {
-        
-
-
-
-
-
+    
 
     }
 
@@ -104,28 +75,5 @@ if(congelado){
         }*/
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if(other.tag == "AreaBandeiraTime1"){
-            Debug.Log("Entrou na Area Bandeira 1");
-        }
-
-        if(other.tag == "AreaBandeiraTime2"){
-        Debug.Log("Entrou na Area Bandeira 2");
-
-    }
-        if(other.tag == "PegaBandeira"){
-            Debug.Log("Entrou Bandeira");
-            checkBandeira = true; 
-
-        }
-
-
-
-
-}
-
     
-
-
 }
