@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class playerControler : MonoBehaviour
+public class playerControler2 : MonoBehaviour
 {
 
     private CharacterController controller;
-    private Animator anim;
+
 
     public float speed;
     public float gravity;
@@ -22,7 +22,7 @@ public class playerControler : MonoBehaviour
     void Start()
     {
         controller = GetComponent<CharacterController>();
-        anim = GetComponent<Animator>();
+    
     }
 
     // Update is called once per frame
@@ -43,22 +43,22 @@ public class playerControler : MonoBehaviour
         if(controller.isGrounded)
         {
         
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.I))
         {
             moveDirection = Vector3.forward * speed; 
-            anim.SetInteger("transition",1);
+            
         }
 
-        if(Input.GetKeyUp(KeyCode.W))
+        if(Input.GetKeyUp(KeyCode.I))
         {
             moveDirection = Vector3.zero;
-            anim.SetInteger("transition",0);
+            
         }
         
-        if(Input.GetKey(KeyCode.S))
+        if(Input.GetKey(KeyCode.K))
         {
             moveDirection = Vector3.forward * speed; 
-            anim.SetInteger("transition",1);
+            
         }
         
         }
